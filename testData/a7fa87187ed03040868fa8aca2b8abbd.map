@@ -1,0 +1,11 @@
+Group            = Mapping
+ProjectionName   = Sinusoidal
+CenterLongitude  = 78.0
+PixelResolution  = 75.0
+TargetName       = Venus
+MinimumLatitude  = 12.5
+MaximumLatitude  = 13.7
+MinimumLongitude = 77.0
+MaximumLongitude = 79.0
+End_Group        = Mapping
+END

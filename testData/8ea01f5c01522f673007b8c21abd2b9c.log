@@ -1,0 +1,34 @@
+       U.S. Geological Survey Cloud Processing Services
+                https://astrocloud.wr.usgs.gov
+
+                   Map-a-Planet 2 (MAP2)
+
+       PDS Cartography and Imaging Node at USGS Astrogeology
+              Contact Information: astroweb@usgs.gov
+
+____________________________________________________________________
+
+JOB INFORMATION
+
+     SERVICE:         MAP2
+     JOB KEY:         8ea01f5c01522f673007b8c21abd2b9c
+     PROCESSING DATE: 2025-01-03 14:23
+     ISIS VERSION:   8.0.2     JOB STATUS:      SUCCESS
+     FILE COUNT:      1
+
+_____________________________________________________________________
+
+PROCESSING INFORMATION
+
+     IMAGE: Venus_Magellan_RightLook_mosaic_global_75m
+          PROCESS:  map2map
+               STATUS:     SUCCESS
+               PARAMETERS: {'from_': '/pds_san/PDS_Derived/MAP2/images/Venus_Magellan_RightLook_mosaic_global_75m.lbl', 'to': '/scratch/pds_services/workarea/8ea01f5c01522f673007b8c21abd2b9c/Venus_Magellan_RightLook_mosaic_global_75m.reproj.cub', 'map': '/scratch/pds_services/workarea/8ea01f5c01522f673007b8c21abd2b9c/8ea01f5c01522f673007b8c21abd2b9c.map', 'matchmap': 'no', 'pixres': 'MAP', 'defaultrange': 'MAP', 'interp': 'bilinear', 'trim': 'YES'}
+               HELP LINK:  https://isis.astrogeology.usgs.gov/Application/presentation/Tabbed/map2map/map2map.html
+
+          PROCESS:  gdal_translate
+               STATUS:     SUCCESS
+               PARAMETERS: {'outputType': 'Byte', 'format': 'GTiff', 'creationOptions': ['bigtiff=if_safer'], 'src': '/scratch/pds_services/workarea/8ea01f5c01522f673007b8c21abd2b9c/Venus_Magellan_RightLook_mosaic_global_75m.reproj.cub', 'dest': '/scratch/pds_services/workarea/8ea01f5c01522f673007b8c21abd2b9c/Venus_Magellan_RightLook_mosaic_global_75m_final.tif'}
+               HELP LINK:  www.gdal.org/gdal_translate.html
+
+END-PROCESSING
